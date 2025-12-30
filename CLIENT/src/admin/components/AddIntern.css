@@ -1,0 +1,23 @@
+.add-intern {
+  padding: 25px;
+  font-family: Arial, sans-serif;
+}
+
+.add-intern h2 {
+  margin-bottom: 20px;
+}
+
+.add-intern input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.add-intern button {
+  width: 100%;
+  padding: 10px;
+  background: #10b981;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

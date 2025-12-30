@@ -1,0 +1,100 @@
+.interns-page {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.06);
+}
+
+/* Header */
+.interns-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.add-btn {
+  background: #10b981;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.add-btn:hover {
+  background: #059669;
+}
+
+/* Search */
+.search-input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+/* Table */
+.interns-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.interns-table thead {
+  background: #f3f4f6;
+}
+
+.interns-table th,
+.interns-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.interns-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+/* Badge */
+.badge {
+  background: #e0e7ff;
+  color: #3730a3;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: #2563eb;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}

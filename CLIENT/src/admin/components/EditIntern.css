@@ -1,0 +1,23 @@
+.edit-intern {
+  padding: 25px;
+  font-family: Arial, sans-serif;
+}
+
+.edit-intern h2 {
+  margin-bottom: 20px;
+}
+
+.edit-intern input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.edit-intern button {
+  width: 100%;
+  padding: 10px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
